@@ -1,0 +1,34 @@
+/* Main styles */
+.maincontent{
+  padding: 16px;
+}
+
+/* Widgets - Carousel */
+.carousel{
+  max-width: 1000px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel li{
+  list-style: none;
+}
+
+
+.productdetails{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 300px;
+  background-color: antiquewhite;
+  padding: 8px;
+  color: inherit;            /* Inherit parent color */
+  text-decoration: none;     /* Remove underline */
+}
