@@ -4,6 +4,7 @@
 #app
 app/__pycache__
 app/.DS_Store
+app/utils/.env
 
 
 #public
