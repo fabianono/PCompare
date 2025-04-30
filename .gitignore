@@ -1,17 +1,15 @@
-.venv
 .DS_Store
 
 #app
 app/__pycache__
 app/.DS_Store
-app/utils/.env
 
 
 #public
 # dependencies
-public/node_modules
-public/.pnp
-public/.pnp.js
+# public/node_modules
+# public/.pnp
+# public/.pnp.js
 
 # testing
 public/coverage
